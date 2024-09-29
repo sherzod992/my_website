@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"name": "5.3 CSS Selectors",
+			"path": "../../../Downloads/5.3 CSS Selectors"
+		},
+		{
+			"name": "udemy_html_pr",
+			"path": "../../../udemy_html_pr"
+		},
+		{
+			"path": "../../../Downloads/5.4+Color+Vocab+Project"
+		},
+		{
+			"path": "../../../Downloads/6.1+Font+Properties"
+		},
+		{
+			"path": "../../../Downloads/6.3 CSS Box Model"
+		},
+		{
+			"path": "../../../Downloads/7.0+CSS+Cascade"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mypage"
+	}
+}

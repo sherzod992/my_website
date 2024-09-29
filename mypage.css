@@ -1,0 +1,106 @@
+/* Reset basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+    color: #333;
+}
+
+/* Container with background image */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./IMG_1237.jpg'); /* Use your background image */
+    background-size: cover; /* Cover the whole page */
+    background-position: center;
+    background-attachment: fixed; /* Fixed background for parallax effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Overlay to darken the background and make text more readable */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+/* Info section with centered content */
+.info {
+    position:relative;
+    z-index: 2;
+    color: rgb(181, 177, 177);
+    max-width: 300px;
+    padding: 30px;
+    text-align:righ;
+    background-color: rgba(255, 207, 207, 0.7);
+    border-radius: 10px;
+    margin-left: -60%;
+    top: 20px; /* 상단에서의 위치 조정 */
+}
+
+
+/* Styling for the name */
+.info h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Styling for role and location */
+.info .role, .info .location {
+    font-size: 1.5rem;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+/* Paragraph text */
+.info p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-top: 15px;
+    line-height: 1.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .info h1 {
+        font-size: 2rem;
+    }
+
+    .info .role, .info .location {
+        font-size: 1.2rem;
+    }
+
+    .info p {
+        font-size: 1rem;
+    }
+}
